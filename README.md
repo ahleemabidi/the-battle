@@ -143,6 +143,30 @@ if (temp.minute1>=9)
 }
 if (temp.minute2>=6)
 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo dpkg --add-architecture i386
+
+wget -qO - https://dl.winehq.org/wine-builds/winehq.key |
+sudo apt-key add –
 	temp.minute2=0;
 	temp.heur1++;
 }
