@@ -33,6 +33,15 @@ typedef struct temps
 	SDL_Rect position_temp;
 	TTF_Font *police;
 	int tempactuel;
+
+
+
+
+-image miniature: SDL_Surface *
+-position minimap: SDL_Rect
+-image bonhomme (joueur miniature ou un point rouge ) : SDL_Surface *
+-position bonhomme : SDL_Rect
+
 	int tempprecedent;
 	char chaine[20];
 
